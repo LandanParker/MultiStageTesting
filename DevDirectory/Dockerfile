@@ -7,7 +7,6 @@ RUN apt-get install -y nano
 RUN apt-get clean
 RUN /scripts/installs.sh
 
-
 FROM base_env AS test_env
 
 FROM base_env AS prod_env
